@@ -1,0 +1,39 @@
+/***********TAG SELECTORS*************/
+
+body{
+    background-color: rgb(213, 240, 213);
+}
+
+h1{
+    color: green;
+    font-size: 60px;
+}
+
+img:hover{
+    background-color: gold;
+    height: 300px;
+}
+
+
+
+/*https://developer.mozilla.org/en-US/docs/Web/CSS/Reference*/
+
+/******************CLASS SELECTORS******************/
+.broccoli{
+    background-color: red;
+    height: 300px;
+} /*overrides the normal selector img*/
+
+.apple{
+    background-color: green;
+    height: 300px;
+}
+
+.circular{
+    border-radius: 100%;
+}
+
+/******************ID SELECTORS******************/
+#heading1{
+    color: blue;
+}

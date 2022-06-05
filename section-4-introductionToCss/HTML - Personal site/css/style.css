@@ -1,0 +1,22 @@
+body {
+    background-color: #EAF6F6;
+}
+
+hr {
+    background-color: #EAF6F6;
+    border-style: none;
+    border-top-style: dotted;
+    border-color: rgb(181, 181, 181);
+    border-width: 5px;
+    width: 5%;
+}
+
+h1,
+h3 {
+    color: #66BFBF;
+}
+
+
+
+/* CSS Syntax
+selector{property:value} */
