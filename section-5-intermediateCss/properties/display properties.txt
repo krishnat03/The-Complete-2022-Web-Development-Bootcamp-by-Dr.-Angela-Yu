@@ -1,0 +1,16 @@
+<!-- 
+display properties
+display: Block, inline, inline-block, none.
+
+1. block elements: It takes The whole width of website size.
+for eg: paragraphs<p>, headers <h1> to <h6>, divs <div>, lists and list elements<ol>,<ul>and<li>, forms<form>.
+
+2. inline elements: it takes only takes as much as it needs to take.
+for eg: span <span>, images<img>, anchors<a>.
+
+3. inline-block : it sets not only it to inline element but also it alows to change the width.
+
+4. none: it removes the elements from the website.
+-->
+
+<!-- visibility: hidden -->
