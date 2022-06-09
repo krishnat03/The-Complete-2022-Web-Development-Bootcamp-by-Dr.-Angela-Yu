@@ -9,5 +9,5 @@
 👉ThinDog-startup website
 <br>
 <ul>
-  <li>https://krishnat03.github.io/The-Complete-2022-Web-Development-Bootcamp-by-Dr.-Angela-Yu/section-6-introduction%20to%20bootstrap/TinDog-Start/index.html</li>
+  <li>https://krishnat03.github.io/The-Complete-2022-Web-Development-Bootcamp-by-Dr.-Angela-Yu/section-7-intermediate%20Bootstrap/TinDog-Start/index.html</li>
 </ul>
