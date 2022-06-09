@@ -1,0 +1,31 @@
+1. Multiple selectors
+eg:
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat";
+    font-weight: bold;
+}
+
+2. Hierarchial selectors
+eg:
+
+parent      child
+selector1 selector2{
+
+}
+
+#title .container-fluid {
+    padding: 3% 15% 7%;
+}
+
+3. Combined selectors
+eg:
+selector1.selector2{
+    
+}
+selector1#selector2{
+
+}
+element and id of that element
+h1#title{
+    color:red
+}
