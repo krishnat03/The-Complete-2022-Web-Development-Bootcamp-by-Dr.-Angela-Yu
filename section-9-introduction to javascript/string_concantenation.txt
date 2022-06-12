@@ -1,0 +1,6 @@
+console.log("a" + "b");
+It will be represented as ab.
+alert("Hello" + " World");
+var message = "Hello";
+var name = "Krishna";
+alert(message + " " + name);

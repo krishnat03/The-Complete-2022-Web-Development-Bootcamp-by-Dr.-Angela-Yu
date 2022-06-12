@@ -1,0 +1,5 @@
+1. number
+2. string
+3. boolean
+
+to find the data type we use the function typeof();

@@ -1,0 +1,2 @@
+var myName = "Krishna";    // it saves the name krishna in the variable myName. 
+var is the keyword that tells JavaScript you're declaring a variable.
