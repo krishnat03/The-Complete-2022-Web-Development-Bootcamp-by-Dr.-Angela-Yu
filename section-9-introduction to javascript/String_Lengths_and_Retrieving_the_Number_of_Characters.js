@@ -1,5 +1,5 @@
-var name = "krishna";
-name.length;
+// var name = "krishna";
+// name.length;
 
 
 var characters = prompt("Enter some words upto 280 Characters");
