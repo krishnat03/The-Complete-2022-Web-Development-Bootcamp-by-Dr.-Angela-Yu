@@ -15,10 +15,11 @@ body {
 }
 
 h1 {
+  text-align: center;
   margin: 30px;
   font-family: 'Lobster', cursive;
   text-shadow: 5px 0 #232931;
-  font-size: 8rem;
+  font-size: clamp(2.5rem,7vw,8rem);
   color: #4ECCA3;
 }
 
@@ -30,6 +31,29 @@ p {
 
 img {
   width: 80%;
+}
+
+.btn{
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  color: #ffffff;
+  background-color: #6f1515;
+  font-size: 19px;
+  border: 1px solid #6f1515;
+  border-radius: 15px;
+  padding: 15px 35px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+button:hover {
+  color: #393E46;
+  background-color: #4ecca3;
+  border: #4ECCA3;
 }
 
 footer {
