@@ -17,6 +17,7 @@ body {
 h1 {
   text-align: center;
   margin: 30px;
+  margin-bottom: 0px;
   font-family: 'Lobster', cursive;
   text-shadow: 5px 0 #232931;
   font-size: clamp(2.5rem,7vw,8rem);
@@ -34,7 +35,7 @@ img {
 }
 
 .btn{
-  margin-top: 2rem;
+  margin-top: 1.5rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -62,4 +63,10 @@ footer {
   text-align: center;
   font-family: 'Indie Flower', cursive;
 
+}
+
+@media (max-width:500px) {
+  img{
+    width: 65%;
+  }
 }
