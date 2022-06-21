@@ -30,6 +30,6 @@
 👉Drum Kit
 <br>
 <ul>
-  <li>https://krishnat03.github.io/The-Complete-2022-Web-Development-Bootcamp-by-Dr.-Angela-Yu/section-13-Advanced%20JavaSccript%20and%20DOM%20Manipulation/Drum%20Kit%20Starting%20Files/index.html</li>
+  <li>https://krishnat03.github.io/The-Complete-2022-Web-Development-Bootcamp-by-Dr.-Angela-Yu/section-13-Advanced%20JavaSccript%20and%20DOM%20Manipulation/Drum%20Kit/index.html</li>
 </ul>
 
