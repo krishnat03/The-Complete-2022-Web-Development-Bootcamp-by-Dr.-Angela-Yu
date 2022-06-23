@@ -5,10 +5,9 @@ body {
 
 #level-title {
   font-family: 'Press Start 2P', cursive;
-  font-size: 3rem;
-  margin:  5%;
+  font-size: clamp(1.5rem, 10vw, 3rem);
+  margin: 5%;
   color: #FEF2BF;
-  /* line-height: 5rem; */
 }
 
 .container {
@@ -29,7 +28,7 @@ body {
 
 .game-over {
   background-color: red;
-  opacity: 0.8;
+  opacity: 0.7;
 }
 
 .red {
@@ -51,4 +50,36 @@ body {
 .pressed {
   box-shadow: 0 0 20px white;
   background-color: grey;
+}
+
+.foot{
+  font-family: 'Press Start 2P', cursive;
+  font-size: clamp(0.5rem, 6vw, 1.5rem);
+  margin: 5%;
+  color: #FEF2BF;
+}
+
+@media (max-width: 450px) {
+  .container{
+    display: inline;
+  }
+  
+  .btn{
+    margin: 10px;
+    height: 100px;
+    width: 100px;
+    border: 6px solid black;
+  }
+
+  .btn-top{
+    margin-top: 110px;
+  }
+
+  .btn-bottom{
+    margin-bottom: 110px;
+  }
+
+  .footer{
+    margin-top: 80px;
+  }
 }
