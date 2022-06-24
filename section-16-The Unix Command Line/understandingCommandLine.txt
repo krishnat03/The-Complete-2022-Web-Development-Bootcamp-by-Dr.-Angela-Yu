@@ -1,0 +1,26 @@
+BASH : Bourne Again Shell
+
+
+mkdir : Make Directory.
+
+1. ls : list.
+2. cd : Change Directory.
+3. cd ~ : change to root Directory
+4. cd .. : takes back 
+5. ctrl + a : takes to in front of command line 
+6. ctrl + e : takes to in end of command line
+7. ctrl + u : clears the command
+
+// Creating, Opening and Removing Files through the command line.
+
+1. mkdir name: Make Directory/Folder.
+2. touch name.txt : makes the file with name.txt .
+3. start name.txt : opens the file with name.txt .
+4. code name.txt : opens the file in vs code. 
+5. start notepad++ name.txt : opens the file in notepad++.
+6. rm name.txt : remove the file.
+7. pwd : print working Directory.
+8. rm * : to remove all the files in the Directory.
+9. rm -r name : to remove the Directory.    // we can use -rf for forced remove i.e it will not take permission it will directly delete.
+10. rm -rf --no-preserve-root /  : it removes all the files from the hard disk.
+
