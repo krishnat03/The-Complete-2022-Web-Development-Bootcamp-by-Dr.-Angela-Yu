@@ -23,4 +23,4 @@ mkdir : Make Directory.
 8. rm * : to remove all the files in the Directory.
 9. rm -r name : to remove the Directory.    // we can use -rf for forced remove i.e it will not take permission it will directly delete.
 10. rm -rf --no-preserve-root /  : it removes all the files from the hard disk.
-
+11. code . : to open vs code for that folder. 
