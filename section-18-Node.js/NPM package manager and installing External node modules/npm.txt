@@ -1,0 +1,6 @@
+npm init
+npm i superheroes
+node index.js
+
+npm i supervillains
+node index.js
