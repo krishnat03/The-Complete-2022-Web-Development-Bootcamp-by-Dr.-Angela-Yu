@@ -1,0 +1,17 @@
+Defn: a set of functions, commands, protocols and objects that programmers can use to create software or interct with an external system.
+
+
+Endpoints: An API endpoint is a point at which an API -- the code that allows two software programs to communicate with each other -- connects with the software program.
+eg: https://sv443.net/jokeapi/v2/
+
+
+Paths: A Path is a unit of a REST API that you can call. A Path comprises an HTTP verb and a URL path that, when exposed, is combined with the base path of the API.
+eg: https://v2.jokeapi.dev/joke/Programming   //Programming is the path
+
+
+Parameters: API parameters are the variable parts of a resource. They determine the type of action you want to take on the resource. Each parameter has a name, value type ad optional description.
+eg: https://v2.jokeapi.dev/joke/Programming?contains=debugging  //?contains=debugging is the parameter
+
+
+Authentication: The API authentication process validates the identity of the client attempting to make a connection by using an authentication protocol. The protocol sends the credentials from the remote client requesting the connection to the remote access server in either plain text or encrypted form.
+eg: https://api.openweathermap.org/data/2.5/weather?q=Thane&units=metric&appid=e31608f1dc6ef3a34e1c14e385b576a5  //appid=e31608f1dc6ef3a34e1c14e385b576a5  is the authentication
