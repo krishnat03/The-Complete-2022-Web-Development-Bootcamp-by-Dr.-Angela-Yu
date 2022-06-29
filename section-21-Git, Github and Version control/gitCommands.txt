@@ -2,3 +2,36 @@ git init
 git status
 git add .
 git commit -m "message"
+git log
+git remote add origin https://github.com/krishnathakur/story.git
+git push -u origin master
+
+
+add gitignore using touch .gitignore
+git rm --cached -r : to remove from staging area in that directory.
+
+
+git diff chapter3.txt :  before commit it see the difference that text is added or deleted
+git checkout chapter3.txt : it roll back to the last/previous version 
+
+
+git checkout : it revert back from local repository to working directory.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Four areas: 
+1. working directory
+2. staging area    - using git add
+3. local repository    - using git commit
+4. Remote repository 
