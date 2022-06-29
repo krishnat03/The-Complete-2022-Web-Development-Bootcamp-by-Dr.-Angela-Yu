@@ -18,9 +18,16 @@ git checkout chapter3.txt : it roll back to the last/previous version
 git checkout : it revert back from local repository to working directory.
 
 
+//clone
+git clone url     : in url go to any repo and serch for https url in the clone or download section.
 
+//branching and merging
+git branch                     //to check number of branches
+git branch alien-plot       // to create a branch name called alien-plot
+git checkout alien-plot     // to switch between the branches specifically to alien-plot
 
-
+git merge alien-plot        //if the main is selected then alien-plot is merged in main and alien plot still exist.
+git push origin main -u        //to push to remote repo
 
 
 
