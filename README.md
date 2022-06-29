@@ -40,3 +40,9 @@
   <li>https://krishnat03.github.io/The-Complete-2022-Web-Development-Bootcamp-by-Dr.-Angela-Yu/section-15-Boss%20Level%20Challenge%202%20-%20The%20Simon%20Game/Simon%20Game%20Challenge/index.html</li>
 </ul>
 
+👉NewsLetter SignUp 
+<br>
+<ul>
+  <li>https://thawing-escarpment-37382.herokuapp.com/</li>
+</ul>
+
