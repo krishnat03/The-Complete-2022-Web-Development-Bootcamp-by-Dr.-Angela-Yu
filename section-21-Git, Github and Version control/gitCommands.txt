@@ -32,11 +32,6 @@ git push origin main -u        //to push to remote repo
 
 
 
-
-
-
-
-
 Four areas: 
 1. working directory
 2. staging area    - using git add
