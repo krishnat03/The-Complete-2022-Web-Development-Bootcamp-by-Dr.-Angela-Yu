@@ -6,19 +6,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To-Do List</title>
+    <link rel="stylesheet" href="../css/styles.css">
 </head>
 
 <body>
 
-    <% if (kindOfDay==="Saturday" || kindOfDay==="Sunday" ){ %>
-        <h1 style="color: purple;">
-            <%= kindOfDay %> To-Do List
-        </h1>
-        <% } else { %>
-            <h1 style="color: blue;">
-                <%= kindOfDay %> To-Do List
-            </h1>
-            <% } %>
+    <div class="box" id="heading">
+        <h1> <%= kindOfDay %> </h1>
+    </div>
+
+    <div class="box">
+            <!-- <li>Buy Food</li>
+            <li>cook foof</li>
+            <li>Eat food</li>
+            <li>Drink Water</li> -->
+    
+        <%    for(let i=0; i < newListItems.length; i++){ %>
+            <div class="item">
+                <input type="checkbox">
+                <p> <%= newListItems[i] %>  </p>
+            </div>       
+        <%    } %>
+        <form class="item" action="/" method="post">
+            <input type="text" name="newItem" placeholder="New Item" autocomplete="off">
+            <button type="submit">+</button>
+        </form>
+    </div>
+
+    
+
+
 
 </body>
 
