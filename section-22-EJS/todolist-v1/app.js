@@ -8,8 +8,8 @@ const app = express();
 
 const port = 3000;
 
-let items = [];
-let workItems = [];
+const items = [];
+const workItems = [];
 
 app.set('view engine', 'ejs');     //to view ejs file in views folder automatically
 
@@ -20,15 +20,15 @@ app.use(express.static("public"));    // to add css
 
 app.get('/', (req, res) => {
     
-    let day = date.getDate();
+    const day = date.getDate();
     res.render("list", {listTitle : day, newListItems: items});
 
     
 });
 
 app.post("/", (req, res) => {
-    console.log(req.body)
-    let item = req.body.newItem;
+    // console.log(req.body)
+    const item = req.body.newItem;
 
     if(req.body.list === "Work"){
         workItems.push(item);

@@ -2,28 +2,28 @@
 
 exports.getDate = function () {
 
-    let today = new Date();
+    const today = new Date();
 
-    let options = {
+    const options = {
         weekday: "long",
         day: "2-digit",
         month: "long",
         year: "numeric"
     }
 
-    let day = today.toLocaleDateString("en-IN", options);
+    const day = today.toLocaleDateString("en-IN", options);
     return day;
 }
 
 exports.getDay = function () {
 
-    let today = new Date();
+    const today = new Date();
 
-    let options = {
+    const options = {
         weekday: "long",
     }
 
-    let day = today.toLocaleDateString("en-IN", options);
+    const day = today.toLocaleDateString("en-IN", options);
     return day;
 }
 

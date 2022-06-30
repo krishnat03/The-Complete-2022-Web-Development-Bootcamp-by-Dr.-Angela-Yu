@@ -1,0 +1,2 @@
+1. https://ejs.co/
+2. https://github.com/mde/ejs/wiki/Using-EJS-with-Express
