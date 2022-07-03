@@ -1,0 +1,19 @@
+SQL : Structured Query Language
+NoSQL : Not Only Structured Query Language
+
+
+Difference : 
+
+MySQL : 
+1. More mature
+2. Table Structured
+3. Requires A Schema 
+4. Great with relationships
+5. scaes vertically
+
+MongoDB :
+1. Shiny and New
+2. Document Structured
+3. More Flexible to changes 
+4. Not Great with complex relationships
+5. Horizontally Scalable
