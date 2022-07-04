@@ -1,0 +1,33 @@
+CREATE TABLE customers (
+  id INT NOT NULL,
+  first_name varchar(255),
+  last_name varchar(255),
+  address varchar(255)
+)
+
+INSERT INTO customers
+VALUES (1, "Krishna", "Thakur", "Mira Road")
+
+INSERT INTO customers
+VALUES (2, "Soham", "Pathak", "Mira Road")
+
+CREATE TABLE orders (
+  id INT NOT NULL,
+  order_number INT,
+  customer_id INT,
+  product_id INT,
+  PRIMARY KEY (id),
+  FOREIGN KEY (customer_id) REFERENCES customers(id),
+  FOREIGN KEY (product_id) REFERENCES products(id)
+)
+
+INSERT Into orders
+VALUES(1, 4362, 2, 1)
+
+SELECT orders.order_number, customers.first_name, customers.last_name, customers.address 
+FROM orders
+INNER JOIN customers ON orders.customer_id = customers.id;
+
+SELECT orders.order_number, products.name, products.price, products.stock
+FROM orders
+INNER JOIN products ON orders.id = products.id;

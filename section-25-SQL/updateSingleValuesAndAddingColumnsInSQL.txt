@@ -1,0 +1,13 @@
+UPDATE products
+SET price = 0.80
+WHERE id = 2
+
+
+// adding a column
+ALTER TABLE products
+ADD stock INT
+
+// updating 
+UPDATE products
+SET stock = 32
+WHERE id = 1

@@ -1,0 +1,6 @@
+SELECT * FROM products;   // all columns and rows is shown from the table.
+
+SELECT name, price FROM products;   // only name and price is shown
+
+SELECT * FROM products WHERE id=1;    // selects a row from id=1
+
