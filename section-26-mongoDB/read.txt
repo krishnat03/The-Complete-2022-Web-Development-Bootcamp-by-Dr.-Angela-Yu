@@ -1,0 +1,11 @@
+db.products.find()
+
+//query
+db.products.find({name: "Pencil"})
+
+db.products.find({price: {$gt: 1}})
+
+
+//projections
+db.products.find({_id: 1}, {name:1})
+db.products.find({_id: 1}, {name:1, _id:0})
