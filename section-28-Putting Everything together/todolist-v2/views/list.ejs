@@ -8,10 +8,9 @@
             <% newListItems.forEach((item) => { %>
                 <form action="/delete" method="post">
                     <div class="item">
-                        <!-- <input name="checkbox" value="" type="checkbox" onchange="this.form.submit()"> -->        <!--value= item._id    in ejs brackets-->
-                        <input type="checkbox">
+                        <input name="checkbox" value="<%= item._id %>" type="checkbox" onchange="this.form.submit()">        <!--value= item._id    in ejs brackets-->
                         <p> <%= item.name %>  </p>
-                        <button type="submit" name="deleteButton" value="<%=item._id %>">-</button>
+                        <!-- <button type="submit" name="deleteButton" value="">-</button>                   value= item._id    in ejs brackets -->
                     </div>
                     <input type="hidden" name="listName" value="<%=listTitle%>"></input>
                 </form>

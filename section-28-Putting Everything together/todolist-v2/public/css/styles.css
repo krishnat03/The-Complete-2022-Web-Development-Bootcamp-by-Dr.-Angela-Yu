@@ -71,6 +71,10 @@ button {
   margin-right: 0.6rem;
 }
 
+.hiddenButton{
+  display: none;
+}
+
 input[type="text"] {
   text-align: center;
   height: 60px;
