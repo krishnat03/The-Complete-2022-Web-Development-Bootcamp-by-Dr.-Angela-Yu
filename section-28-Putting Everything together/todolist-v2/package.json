@@ -1,0 +1,17 @@
+{
+  "name": "todolist-v1",
+  "version": "1.0.0",
+  "description": "todolist-v1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "krishna Thakur\u001b[1;5D\u001b[1;5D\u001b[1;5D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[K\u001b[1;5C\u001b[1;5C\u001b[1;5C\u001b[1;5C\u001b[1;5C\u001b[1;5C\u001b[1;5C\u001b[1;5C\u001b[1;5C\u001b[1;5C\u001b[1;5C\u001b[1;5C\u001b[1;5C\u001b[1;5C\u001b[1;5C\u001b[1;5C\u001b[1;5C\u001b[1;5C\u001b[1;5C\u001b[1;5C\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "mongoose": "^6.4.3"
+  }
+}
