@@ -1,0 +1,4 @@
+1. install Robo3T. 
+2. make a database called wikiDB.
+3. in collections make a collection called articles (note: collection should be in plural form).
+4. and follow the https://github.com/londonappbrewery/Build-Your-Own-RESTful-API

@@ -25,9 +25,12 @@ const articleSchema = new mongoose.Schema({
 const Article = mongoose.model("Article", articleSchema);
 
 
+///////////////////////////////////Requests Targeting all the Articles //////////////////////////////////
+//chained Route handlers using express
+app.route("/articles")
 
 //get all articles
-app.get('/articles', (req, res) => {
+.get((req, res) => {
     Article.find((err, foundArticles) => {
         if(!err){
             res.send(foundArticles);
@@ -35,10 +38,10 @@ app.get('/articles', (req, res) => {
             res.send(err);
         }
     })
-});
+})
 
 //Post a New article
-app.post("/articles", (req, res) => {
+.post((req, res) => {
     // console.log(req.body.title); 
     // console.log(req.body.content); 
 
@@ -54,10 +57,10 @@ app.post("/articles", (req, res) => {
             res.send(err);
         }
     });
-});
+})
 
 //Delete the article
-app.delete("/articles", (req, res) => {
+.delete((req, res) => {
     Article.deleteMany((err) => {
         if(!err) {
             res.send("Sucessfully deleted all the articles");
@@ -68,6 +71,65 @@ app.delete("/articles", (req, res) => {
 });
 
 
+///////////////////////////////////Requests Targeting a specific Articles //////////////////////////////////
+
+app.route('/articles/:articleTitle')
+//get a specific title.
+.get((req, res) => {
+
+    Article.findOne({title: req.params.articleTitle}, (err, foundArticle)=>{
+        if(foundArticle) {
+            res.send(foundArticle);
+        } else {
+            res.send("No Articles matching that title was found.");
+        }
+    });
+})
+
+//replace a specfic title article. In this case it overwrites all the content 
+.put((req, res) => {
+    Article.updateOne(
+        {title: req.params.articleTitle},
+        {title: req.body.title, content: req.body.content},
+        // {overwrite: true},
+        (err) => {
+            if (!err) {
+                res.send("Sucessfully updated the article");
+            } else {
+                res.send("Unsucessfull");
+            }
+        }
+    );
+})
+
+// replace a specific content. 
+.patch((req, res) => {
+    Article.updateOne(
+        {title: req.params.articleTitle},
+        {$set: req.body},
+        (err) => {
+            if (!err) {
+                res.send("Sucessfully updated the article");
+            } else {
+                res.send(err);
+            }
+        }
+    );
+})
+
+//delete a specific article
+.delete((req, res) => {
+    Article.deleteOne(
+        {title: req.params.articleTitle},
+        (err) => {
+            if (!err) {
+                res.send("Sucessfully deleted the corresponding article");
+            } else {
+                res.send(err);
+            }
+        }
+    );
+});
 
 
 
