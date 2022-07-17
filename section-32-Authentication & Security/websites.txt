@@ -2,3 +2,4 @@ https://www.npmjs.com/package/mongoose-encryption
 https://www.npmjs.com/package/dotenv
 https://www.npmjs.com/package/md5
 http://password-checker.online-domain-tools.com/
+https://www.passportjs.org/concepts/authentication/strategies/
