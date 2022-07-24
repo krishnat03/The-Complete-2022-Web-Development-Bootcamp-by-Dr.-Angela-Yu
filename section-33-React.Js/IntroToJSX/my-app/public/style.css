@@ -1,5 +1,25 @@
 .heading{
     font-size: 50px;
     font-weight: bold;
-    border-bottom: 5px solid black;
+    /* border-bottom: 5px solid black; */
+    display: inline-block;
+    position: relative;
+}
+
+.heading::before{
+    content: '';
+    position: absolute;
+    /* left: 0; */
+    right: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: rgb(80, 210, 57);
+    transition: width .25s ease-out;
+}
+
+.heading:hover::before{
+    width: 100%;
+    left: 0;
+    right: auto;
 }
