@@ -15,6 +15,7 @@
     width: 0;
     height: 2px;
     background-color: rgb(80, 210, 57);
+    background-image: linear-gradient(to right, rgb(137, 192, 137), rgb(115, 115, 216));
     transition: width .25s ease-out;
 }
 
