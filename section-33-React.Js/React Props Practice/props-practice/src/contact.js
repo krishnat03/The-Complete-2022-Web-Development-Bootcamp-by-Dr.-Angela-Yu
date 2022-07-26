@@ -1,5 +1,6 @@
 const contacts = [
     {
+        id:"1",
         name: "Sachin Tendulkar",
         imgURL:
             "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320,q_50/lsci/db/PICTURES/CMS/316400/316486.png",
@@ -7,6 +8,7 @@ const contacts = [
         email: "sachin@tendulkar.com"
     },
     {
+        id:"2",
         name: "Mahendra Singh Dhoni",
         imgURL:
             "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320,q_50/lsci/db/PICTURES/CMS/319900/319946.png",
@@ -14,6 +16,7 @@ const contacts = [
         email: "dhoni@dhoni.com"
     },
     {
+        id:"3",
         name: "Virat Kholi",
         imgURL:
             "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320,q_50/lsci/db/PICTURES/CMS/316600/316605.png",
