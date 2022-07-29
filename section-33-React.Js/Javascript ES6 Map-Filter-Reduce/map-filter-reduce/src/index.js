@@ -1,4 +1,11 @@
-import emojipedia from "./emojipedia"
+// import emojipedia from "./emojipedia"
+
+// var numbers = [3, 56, 2, 48, 5];
+
+// const newNumbers = numbers.map( x => x * x);
+// console.log(newNumbers);
+
+
 
 // var numbers = [3, 56, 2, 48, 5];
 
@@ -22,6 +29,10 @@ import emojipedia from "./emojipedia"
 // });
 // console.log(newNumbers);
 
+// 4th way
+// const newNumbers = numbers.map(x => x * 2);
+// console.log(newNumbers);
+
 
 // var numbers = [3, 56, 2, 48, 5];
 //Filter - Create a new array by keeping the items that return true.
@@ -40,6 +51,10 @@ import emojipedia from "./emojipedia"
 // })
 // console.log(newNumbers);
 
+// 3rd way 
+// const newNumbers = numbers.filter(num => num < 10)
+// console.log(newNumbers);
+
 
 // var numbers = [3, 56, 2, 48, 5];
 //Reduce - Accumulate a value by doing something to each item in an array.
@@ -56,6 +71,10 @@ import emojipedia from "./emojipedia"
 // })
 // console.log(newNumber);
 
+// 3rd way 
+// var newNumber = numbers.reduce ((accumulator, currentNumber) => accumulator + currentNumber)
+// console.log(newNumber);
+
 
 // var numbers = [3, 56, 2, 48, 5];
 //Find - find the first item that matches from an array.
@@ -63,6 +82,8 @@ import emojipedia from "./emojipedia"
 //   return num > 10;
 // })
 
+//2nd way
+// const newNumber = numbers.find(num => num > 10)
 // console.log(newNumber);
 
 
@@ -71,13 +92,15 @@ import emojipedia from "./emojipedia"
 //   return num > 10;
 // })
 
+// 2nd way
+// const newNumber = numbers.findIndex(num => num > 10);
 // console.log(newNumber);
 
 
 //maping emojipedia meaning and truncating to 1st 100 characters.
-const meanings = emojipedia.map(function(emojiEntry) {
-  return emojiEntry.meaning.substring(0, 100);
-})
+// const meanings = emojipedia.map(function(emojiEntry) {
+//   return emojiEntry.meaning.substring(0, 100);
+// })
 
-
-console.log(meanings);
+// const meanings = emojipedia.map( emojiEntry => emojiEntry.meaning.substring(0, 100));
+// console.log(meanings);
