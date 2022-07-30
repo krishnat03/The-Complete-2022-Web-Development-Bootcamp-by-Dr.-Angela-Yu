@@ -1,14 +1,23 @@
 import React from "react";
 
+//Imperative Programming
+function strike() {
+  document.getElementById("root").style.textDecoration = "line-through";
+}
+function unStrike() {
+  document.getElementById("root").style.textDecoration = "none";
+}
 
 
 function App() {
-  // declarative Programming
-  var isDone = true;
+  return (
+    <div>
+      <p>Buy milk</p>
+      <button onClick={strike}>Change to Strike through</button>
+      <button onClick={unStrike}>Change back</button>
+    </div>
+  )
 
-  const strikeThrough = {textDecoration: "line-through"}
-  
-  return <p style={isDone && strikeThrough}>Buy milk</p>
 }
 
 export default App;
